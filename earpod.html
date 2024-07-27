@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="earpod.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+
+        <span>SellX</span>
+
+        <ul class="dropdown">
+            <li class="icon2">
+
+                <li><a href="mainpage.html">home   <i class="fa-solid fa-house"></i></a> </li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="privacy.html">privacy</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+                <li class="icon2">
+                    <a href="loginpage.html">login <i class="fa-solid fa-user"></i></a>
+                </li>
+                <li class="icon2">
+                    <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+
+
+        </ul>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="cart">
+            <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="login">
+            <a href="loginpage.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+    <center>
+        <div class="search">
+            <input type="text" id="search-item" placeholder="  search product......." onkeyup="search()">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button>
+
+        </div>
+    </center>
+
+    <center>
+
+        <div class="box">
+            <fieldset>
+                <div class="product">
+                    <img src="boat airdopes 138 (1).jpg" alt=""><br>
+                    <small>boat airdopes 138 </small>
+                    <h3>price-₹1,399</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div class="product">
+                    <img src="truke buds q1 (1).jpg" alt=""><br>
+                    <small>truke buds q1</small>
+                    <h3>price-₹1,299</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="product">
+                    <img src="mivi duopods k2 (1).jpg" alt=""><br>
+                    <small>mivi duopods k2</small>
+                    <h3>price-₹1,199</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="product">
+                    <img src="boat airdopes 148 (1).jpg" alt=""><br>
+                    <small>boat airdopes 148</small>
+                    <h3>price-₹1,499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="product">
+                    <img src="boat 102 (1).jpg" alt=""><br>
+                    <small>boat 102</small>
+                    <h3>price-₹499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="product">
+                    <img src="truke yoga 1 (1).jpg" alt=""><br>
+                    <small>truke yoga 1</small>
+                    <h3>price-₹2,499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="product">
+                    <img src="apple airpods pro (1).jpg" alt=""><br>
+                    <small>apple airpods pro </small>
+                    <h3>price-₹1,399</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="product">
+                    <img src="oppo enco buds 2 (1).jpg" alt=""><br>
+                    <small>oppo enco buds 2</small>
+                    <h3>price-₹1,299</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="product">
+                    <img src="mivi duopodsf60 (1).jpg" alt=""><br>
+                    <small>mivi duopodsf60</small>
+                    <h3>price-₹1,199</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="product">
+                    <img src="boult audio airbass z35 (1).jpg" alt=""><br>
+                    <small>boult audio airbass z35</small>
+                    <h3>price-₹1,499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="product">
+                    <img src="bould audio x50 (1).jpg" alt=""><br>
+                    <small>bould audio x50</small>
+                    <h3>price-₹499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="product">
+                    <img src="jbl airpods 220 (1).jpg" alt=""><br>
+                    <small>jbl airpods 220</small>
+                    <h3>price-₹2,499</h3><br>
+                    <a href=""><button type="button">Buy</button></a>
+                </div>
+            </fieldset>
+
+
+
+        </div>
+
+
+
+
+
+        <script>
+            const hamburger = document.querySelector(' .hamburger');
+            const navbar = document.querySelector(' ul');
+            hamburger.addEventListener('click', () => {
+                navbar.classList.toggle('slide');
+            });
+            const search = () => {
+                const searchbox = document.getElementById('search-item').value.toUpperCase();
+                const storeitem = document.getElementById('box');
+                const product = document.querySelectorAll('.product');
+                const name = document.getElementsByTagName('h3');
+                for (var i = 0; i <= name.length; i++) {
+                    let match = product[i].getElementsByTagName('small')[0];
+                    if (match) {
+                        let textvalue = match.textContent || match.innerHTML
+                        if (textvalue.toUpperCase().indexOf(searchbox) > -1) {
+                            product[i].style.display = "";
+                        } else {
+                            product[i].style.display = "none";
+                        }
+                    }
+                }
+
+
+            }
+        </script>
+</body>
+
+</html>

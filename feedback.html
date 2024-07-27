@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <nav class="nav">
+
+        <span>SellX</span>
+
+        <ul class="dropdown">
+            <li><a href="mainpage.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="privacy.html">privacy</a></li>
+            <li><a href="feedback.html">feedback</a></li>
+
+            <li><a href="loginpage.html">Logout</a></li>
+
+        </ul>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </nav>
+
+    <fieldset>
+        <center>
+            <h2>FEEDBACK</h2>
+        </center>
+        <div class="place">
+            <div class="id">
+                <input type="text" placeholder="Enter name">
+                <i class="far fa-user"></i>
+            </div>
+            <br>
+            <div class="id">
+                <input type="text" placeholder="Enter email">
+                <i class="far fa-"></i>
+
+            </div>
+            <br>
+            <div class="id">
+                <textarea cols="30" rows="12" placeholder=" Enter your feedback"></textarea>
+                <i class="far fa-"></i>
+            </div>
+
+        </div>
+        <br>
+        <center>
+            <a href="mainpage.html"><button type="button">send</button></a></center>
+
+
+
+    </fieldset>
+    <script>
+        const hamburger = document.querySelector(' .hamburger');
+        const navbar = document.querySelector(' ul');
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,387 @@
+* {
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(230, 231, 236);
+}
+
+
+/*.bigbox {
+    display: grid;
+    grid-template-columns: (auto-fit, minmax(220px, auto));
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}*/
+
+.nav {
+    background-color: rgb(87, 120, 252);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0%
+}
+
+.nav span {
+    color: white;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav ul {
+    float: right;
+    padding: 0%;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgb(44, 82, 236);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon2 {
+    visibility: visible;
+}
+
+.cart {
+    visibility: hidden;
+}
+
+.login {
+    visibility: hidden;
+}
+
+.nav li:nth-child(3):hover.product {
+    display: block;
+}
+
+.ad img {
+    height: 300px;
+    width: 1270px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:768px) {
+    .nav ul {
+        position: fixed;
+        left: 0;
+        width: 25%;
+        height: 100%;
+        background-color: rgb(87, 120, 252);
+        transition: 0.8s;
+        left: -100%
+    }
+    ul.slide {
+        left: 0;
+        transition: 0.8s;
+    }
+    .ad img {
+        width: 490px;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0%
+    }
+    .hamburger {
+        float: left;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .cart {
+        visibility: visible;
+        float: right;
+        cursor: pointer;
+        line-height: 50px;
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .login {
+        visibility: visible;
+        float: right;
+        cursor: pointer;
+        line-height: 50px;
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .icon2 {
+        visibility: hidden;
+    }
+    .hamburger .line {
+        background-color: white;
+        width: 5px;
+        height: 5px;
+        margin-bottom: 5px;
+        display: block;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .nav ul li a:hover {
+        background-color: rgb(44, 82, 236);
+        padding: 6px;
+        border-radius: 5px;
+    }
+    /*  .auction fieldset {
+        background-color: white;
+        margin-left: 15px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        border: none;
+        
+    }*/
+}
+
+.box fieldset {
+    justify-content: center;
+    display: inline-block;
+    margin-bottom: 17px;
+    width: 0%;
+    height: 0%;
+    margin-left: 15px;
+    margin-right: 0%;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+}
+
+
+/* 
+ */
+
+.nav li:nth-child(3):hover.product {
+    display: block;
+}
+
+.box button {
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: rgb(90, 80, 236);
+    ;
+    color: white;
+    border: 1px solid rgb(90, 80, 236);
+    margin-top: 10px;
+}
+
+.see button {
+    width: 110px;
+    border-radius: 15px;
+    color: rgb(90, 80, 236);
+    background-color: white;
+    border: 1px solid rgb(90, 80, 236);
+    /* margin-right: 1000px;*/
+    height: 25px;
+}
+
+.search input {
+    border-radius: 2px;
+    top: 30px;
+    border: 1px solid black;
+    width: 350px;
+    height: 33px;
+    justify-content: space-around;
+    right: 0;
+}
+
+button {
+    height: 35px;
+    left: 0;
+}
+
+img {
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: kanit;
+    margin-top: 25px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+
+.box fieldset:hover {
+    padding: 15px;
+    box-shadow: 10px;
+    transition: 0.4s;
+}
+
+fieldset {
+    border: 1px solid grey;
+}
+
+small {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+}
+
+
+/*.pods h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin-right: 80px;
+}*/
+
+.search button {
+    color: white;
+    background-color: rgb(87, 120, 252);
+    border: 1px solid rgb(87, 120, 252);
+    border-radius: 2px;
+}
+
+.search button:hover {
+    color: white;
+    background-color: rgb(44, 82, 236);
+    border: 1px solid rgb(44, 82, 236);
+    ;
+    border-radius: 2px;
+}
+
+.cart2 button {
+    width: 50px;
+}
+
+.auction {
+    display: flex;
+}
+
+.auction img {
+    float: left;
+    margin-right: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.auction fieldset {
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.auction p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.auction button {
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    margin-top: 0%;
+    float: left;
+    align-items: left;
+    cursor: not-allowed;
+}
+
+.auction2 button {
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: rgb(81, 216, 110);
+    border: none;
+    border-radius: 6px;
+    margin-top: 0%;
+    float: left;
+    align-items: left;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.auction .counter {
+    display: flex;
+    color: red;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    width: min-content;
+    height: fit-content;
+    margin-bottom: 0%;
+    margin-right: 145px;
+    float: left;
+    gap: 23px;
+    margin-left: 5px;
+}
+
+.auction .counter.box {
+    margin-right: 15px;
+    width: min-content;
+    height: min-content;
+}
+
+.auction .counter.box h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.b button {
+    border: none;
+    background: transparent;
+    color: grey;
+    outline: none;
+    width: min-content;
+    height: min-content;
+    margin-left: 125px;
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+.star i {
+    padding: 5px;
+    color: white;
+    background-color: rgb(9, 152, 9);
+    font-size: 10px;
+    border: 1px solid rgb(1, 115, 1);
+    display: flex;
+    width: min-content;
+    margin-right: 3px;
+    gap: 3px;
+    border-radius: 3px;
+    float: inline-end;
+}
+
+.star p {
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

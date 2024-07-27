@@ -1,0 +1,10 @@
+fieldset {
+    justify-content: center;
+    display: block;
+    align-items: center;
+    width: fit-content;
+}
+
+.radio {
+    margin-left: 20px;
+}
